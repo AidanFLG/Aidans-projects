@@ -1,0 +1,32 @@
+<!-- this is the creating of the page -->
+<html>
+  <!-- this is setting the backround color of the page -->
+  <body style="background-color:rgb(159, 214, 231);"> 
+  <!-- this is for the title -->
+  <center><h1 style="font-size: 3rem; color: #000000"> View Players</h1></center>
+  <!-- this is a button for returning to the privouse page -->
+  <a href="teams" style="font-size: 2rem; color: #ff0000"> Back </a>
+  <!-- the br 's are all spacers for style and looks -->
+  <br>
+  <br>
+  <!-- displays a table for the user to see current players on there team -->
+  <center><table>
+    <tr>
+      <th>playerID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Position</th>
+      <th>Goals</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+      <td>{{row[0]}}</td>
+      <td>{{row[1]}}</td>
+      <td>{{row[2]}}</td>
+      <td>{{row[3]}}</td>
+      <td>{{row[4]}}</td>
+    </tr>
+    {% endfor %}
+  </table></center>
+</body> 
+</html>

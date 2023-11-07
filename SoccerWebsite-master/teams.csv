@@ -1,0 +1,12 @@
+(team_id, team_name, team_city, team_goals, wins, loses, coach_id)
+
+1,Argentina,Buenos Aires,null,null,null,1
+2,Australia,Melbourne,null,null,null,2
+3,Belgium,Tubize,null,null,null,3
+4,Brazil,Teresópolis,null,null,null,4
+5,Cameroon,Mbankomo,null,null,null,5
+6,Canada,Toronto,null,null,null,6
+7,Costa Rica,San José,null,null,null,7
+8,Croatia,Al Rayyan,null,null,null,8
+9,Denmark,Indre Østerbro,null,null,null,9
+10,Ecuador,Sangolqui,null,null,null,10
