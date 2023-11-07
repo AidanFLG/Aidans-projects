@@ -1,7 +1,7 @@
 # Aidans-resume
-## Three Projects 
+## Four Projects 
 
-### Escape The Prison
-### Panther Buddy
-### FIFA 2022 Data Base
-### Corgi Survival
+### 1. Escape The Prison
+### 2. Panther Buddy
+### 3. FIFA 2022 Data Base
+### 4. Corgi Survival
